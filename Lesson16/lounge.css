@@ -26,4 +26,14 @@ h2 {
 	font-style:          italic;/*斜体*/
 	color:              #444444;/*颜色*/
 	font-family: Georgia, "Times New Roman";
+	background-image: url(./images/background.gif);/*添加图片底纹*/
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-left: 80px;
+	margin-right: 250px;
 }
+p {
+    border: thin dotted #ffffff;/*白色虚线*/
+		border-top-right-radius: 2em;/*右上2em圆角*/
+		border-bottom-left-radius: 2em;/*左下2em圆角*/
+	}

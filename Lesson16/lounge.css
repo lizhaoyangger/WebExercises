@@ -37,3 +37,23 @@ p {
 		border-top-right-radius: 2em;/*右上2em圆角*/
 		border-bottom-left-radius: 2em;/*左下2em圆角*/
 	}
+.elixirs {
+     border-width: thin;
+		 border-style: solid;
+		 border-color: #007e7e;
+		 width: 200px;/* width 属性允许指定内容区的宽度 */
+		 padding-right: 20px;
+		 padding-bottom: 20px;
+		 padding-left: 20px;
+		 margin-left: 20px;
+		 background-image:  url(./images/cocktail.gif);
+		 background-repeat: repeat-x;
+		 text-align: center;/* 文本剧中对齐 */
+		 line-height: 1;
+}
+.elixirs h2{
+    color: black;
+}
+.elixirs h3{
+    color: #d12c47
+}

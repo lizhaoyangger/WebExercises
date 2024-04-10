@@ -38,22 +38,45 @@ p {
 		border-bottom-left-radius: 2em;/*左下2em圆角*/
 	}
 .elixirs {
-     border-width: thin;
-		 border-style: solid;
-		 border-color: #007e7e;
+    border-width: thin;
+	  border-style: solid;
+		border-color: #007e7e;
 		 width: 200px;/* width 属性允许指定内容区的宽度 */
-		 padding-right: 20px;
-		 padding-bottom: 20px;
-		 padding-left: 20px;
-		 margin-left: 20px;
-		 background-image:  url(./images/cocktail.gif);
-		 background-repeat: repeat-x;
-		 text-align: center;/* 文本剧中对齐 */
-		 line-height: 1;
+		padding: 0px 20px 20px 20px;
+		margin-left: 20px;
+		background-image:  url(./images/cocktail.gif);
+		background-repeat: repeat-x;
+		text-align: center;/* 文本剧中对齐 */
+		line-height: 1;/*增加行高*/
 }
-.elixirs h2{
+
+.elixirs>h2{
     color: black;
 }
+
 .elixirs h3{
     color: #d12c47
+}
+
+a:link{/* 未访问状态 */
+  color:red;
+}
+a:visited{/* 已访问状态 */
+  color: green;
+}
+a:hover{/* 悬停状态 */
+  color:yellow;
+}
+
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
 }

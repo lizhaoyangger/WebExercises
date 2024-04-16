@@ -10,3 +10,25 @@ p{
     
     color: blue;
 }
+
+.right {
+	float: right;
+}
+
+div.block {
+	width: 45vw;
+	height: 20vh;
+	border: 2px solid black;
+}
+
+.top {
+	margin-bottom: 40px;
+}
+
+.bottom {
+	margin-top: 80px;
+}
+
+.ruler {
+	height: 120px;
+}

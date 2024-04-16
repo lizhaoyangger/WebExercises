@@ -1,0 +1,86 @@
+body {
+	font-size: small; /* 新的属性值，请自行了解 */
+	font-family: Verdana, Helvetica,Arial;
+  line-height: 1.6em;
+}
+
+h1, h2 {
+	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+.guarantee {
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+	padding:             25px; /* 新增内边距 */
+	margin:              30px;  /* 新增外边距 */
+	padding-top:         1.9em; /*增加行高*/
+	font-style:          italic;/*斜体*/
+	color:              #444444;/*颜色*/
+	font-family: Georgia, "Times New Roman";
+	background-image: url(./images/background.gif);/*添加图片底纹*/
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-left: 80px;
+	margin-right: 250px;
+}
+p {
+    border: thin dotted #ffffff;/*白色虚线*/
+		border-top-right-radius: 2em;/*右上2em圆角*/
+		border-bottom-left-radius: 2em;/*左下2em圆角*/
+	}
+.elixirs {
+    border-width: thin;
+	  border-style: solid;
+		border-color: #007e7e;
+		 width: 200px;/* width 属性允许指定内容区的宽度 */
+		padding: 0px 20px 20px 20px;
+		margin-left: 20px;
+		background-image:  url(./images/cocktail.gif);
+		background-repeat: repeat-x;
+		text-align: center;/* 文本剧中对齐 */
+		line-height: 1;/*增加行高*/
+}
+
+.elixirs>h2{
+    color: black;
+}
+
+.elixirs h3{
+    color: #d12c47
+}
+
+a:link{/* 未访问状态 */
+  color:red;
+}
+a:visited{/* 已访问状态 */
+  color: green;
+}
+a:hover{/* 悬停状态 */
+  color:yellow;
+}
+
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+
+.elixirs{
+    float: right;
+}

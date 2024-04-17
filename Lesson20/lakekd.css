@@ -32,3 +32,8 @@ div.block {
 .ruler {
 	height: 120px;
 }
+
+.float-block {
+	width: 5px;
+	float: right;
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.tubiao {
+    display: flex;
+    unicode-bidi: isolate;
+    margin-left: 500px;
+}
+
+.facebook{
+    margin-left: 25px;
+}
+
+.youtube{
+    margin-left: 25px;
+}
+.instsgram{
+    margin-left: 25px;
+}
+

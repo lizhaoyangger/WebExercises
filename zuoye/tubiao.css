@@ -4,8 +4,8 @@ body {
 
 .tubiao {
     display: flex;
-    unicode-bidi: isolate;
-    margin-left: 500px;
+    margin-left: 600px;
+    margin-top: 400px;
 }
 
 .facebook{
@@ -15,7 +15,65 @@ body {
 .youtube{
     margin-left: 25px;
 }
-.instsgram{
+
+.instagram{
     margin-left: 25px;
 }
 
+.자산{
+    margin-left: 25px;
+}
+
+.weibo{
+    margin-left: 25px;
+}
+
+.tiktok{
+    margin-left: 25px;
+}
+
+.all {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.all-one {
+    display: flex;
+    margin-left: 620px;
+}
+
+.two{
+    margin-left: 25px;
+}
+
+.all-two{
+    display: flex;
+    margin-left: 500px;
+}
+
+.four{
+    margin-left: 25px;
+}
+
+.five{
+    margin-left: 25px;
+}
+
+.six{
+    margin-left: 25px;
+}
+
+.seven{
+    margin-left: 25px;
+}
+
+.eight{
+    margin-left: 25px;
+}
+
+.xia{
+    border: none;
+    color: #bbb;
+    background-color: #bbb;
+    height: 1px;
+}

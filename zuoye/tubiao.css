@@ -77,3 +77,30 @@ body {
     background-color: #bbb;
     height: 1px;
 }
+
+hr{
+    box-sizing: content-box;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+a:hover {
+    color: red;
+}

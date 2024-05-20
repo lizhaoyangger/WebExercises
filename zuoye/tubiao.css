@@ -78,7 +78,7 @@ body {
     height: 1px;
 }
 
-hr{
+.xia hr{
     box-sizing: content-box;
     display: block;
     margin-block-start: 0.5em;
@@ -87,6 +87,10 @@ hr{
     margin-inline-end: auto;
     unicode-bidi: isolate;
     overflow: hidden;
+    box-sizing: content-box;
+    border: none;
+    color: #bbb;
+    background-color: var(--tweak-line-block-line-color);
 }
 
 a:link {
@@ -97,10 +101,12 @@ a:visited {
     color: white;
 }
 
-a:hover{
+a:hover {
     color: red;
 }
 
-a:hover {
-    color: red;
+hr {
+    border-color: red;
+    height: 100px;
+    background-color: red;
 }

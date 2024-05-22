@@ -4,8 +4,8 @@ body {
 
 .tubiao {
     display: flex;
-    margin-left: 600px;
-    margin-top: 100px;
+    margin-left: 620px;
+    /* margin-top: 100px; */
 }
 
 .facebook{
@@ -39,7 +39,7 @@ body {
 
 .all-one {
     display: flex;
-    margin-left: 620px;
+    margin-left: 630px;
 }
 
 .two{
@@ -48,27 +48,27 @@ body {
 
 .all-two{
     display: flex;
-    margin-left: 500px;
+    margin-left: 520px;
 }
 
 .four{
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 .five{
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 .six{
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 .seven{
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 .eight{
-    margin-left: 25px;
+    margin-left: 35px;
 }
 
 a:link {
@@ -146,22 +146,37 @@ a:hover {
     filter: drop-shadow(red 0 50px);
 }
 
-.ppp{
-    display: flex;
-    background-color: red;
-}
+
 
 .bott{
     color: #ffffff;
     font-size: 13px;
+    margin-top: 20px;
 }
 
-p {
+/* p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+} */
+/* .quan{
+    position: relative;
+    display: inline-block;
 }
 
+img:nth-child(tupian){
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+img:nth-child(tubiao):hover + img:nth-child(tupian){
+    opacity: 0.5;
+} */
+.ppp{
+    position:absolute;
+}

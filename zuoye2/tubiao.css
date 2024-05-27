@@ -1,4 +1,4 @@
-body {
+.li {
     background-color: black;
 }
 
@@ -79,7 +79,7 @@ a:visited {
     color: white;
 }
 
-a:hover {
+.all:hover {
     color: red;
 }
 
